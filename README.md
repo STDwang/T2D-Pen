@@ -1,15 +1,15 @@
-# 魔改版T2D
+# T2D-Magic revision
 
-## 背景
+## Introduction
 
-[**T2D**](https://github.com/ShowFL/Toou-2D)是一个基于Qml的2D组件框架，您可以使用它像使用qml原生组件一样方便的绘制您的界面，且其令人兴奋的UI和交互效果让我们可以尽快完成一个非常专业的酷炫页面。
+​	[**T2D**](https://github.com/ShowFL/Toou-2D) is a 2D component framework based on Qml, you can use it to draw your interface as easily as using qml native components, and its exciting UI and interactive effects allow us to complete a very professional and cool page as soon as possible.
 
-当我们下载编译运行它的源码时，程序的脚本文件会将编译好的组件和Qt自带组件的路径和形式一样，将lib和相关需要的文件生成并拷贝到Qt对应的安装目录。然而，T2D原作者已经很久没用对其进行更新和维护，原框架至今仍保持着对windows，macos，Android，IOS的支持，但是如linux系统却未编写脚本文件对其进行扩展，我们将因此而无法享受到T2D的便利。
+​	When we download the source code to compile and run it, the script file of the program will have the same path and form as the compiled components and Qt's own components, and generate and copy the lib and related required files to the installation directory corresponding to Qt. However, the original author of T2D has not used it for a long time to update and maintain it. The original framework still maintains support for windows, macos, Android, and IOS, but the linux system has not written a script file to extend it. We will therefore And can not enjoy the convenience of T2D.
 
-因此，我对T2D进行了一段时间的研究和修改，在尽可能少的改动原作者代码的前提下尽量方便的同时，使我尽可能像之前需要编译进Qt库后再调用一样方便。
+​	Therefore, I have been researching and modifying T2D for a period of time, while making it as convenient as possible on the premise of changing the original author's code as little as possible, and making it as convenient as possible for me to compile it into the Qt library before calling it.
 
-## 如何使用
+## How To Use
 
-正如官方**example**提供的调用T2D的使用demo一样，我将改动后的源码放在了t2d文件夹中，你可以直接将其拖到您的项目主目录中，然后导入"t2d/Toou2D.h"即可，其他与之前的操作并无差别，详细请查阅代码。
+​	Just like the demo of calling T2D provided by the official **example**, I put the modified source code in the t2d folder, you can directly drag it to the main directory of your project, and then import "t2d/Toou2D .h" is enough, other operations are the same as the previous operations, please refer to the code for details.
 
 ![39a7b4431c12e0b06d62e20d8bfc6cf](https://user-images.githubusercontent.com/66109192/182031874-29b9ecb4-4f06-4d76-942a-af668d6b926c.jpg)
