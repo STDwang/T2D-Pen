@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="t2d\theme\ThemeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\def.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\qml_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\t2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\controls\gadget\tcolor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\controls\interface\tdialogitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\controls\gadget\tgadgetbackground.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\controls\gadget\tgadgetborder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\controls\gadget\tgadgeticon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\controls\gadget\tgadgetitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\controls\gadget\tgadgetlabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\controls\gadget\tgadgetscrollbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\theme\theme_binder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\theme\theme_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\toou2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\controls\interface\ttoastitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t2d\world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="t2d\theme\ThemeManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="t2d\Toou2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="t2d\def.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\qml_plugin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\t2d.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\controls\gadget\tcolor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\controls\interface\tdialogitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\controls\gadget\tgadgetbackground.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\controls\gadget\tgadgetborder.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\controls\gadget\tgadgeticon.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\controls\gadget\tgadgetitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\controls\gadget\tgadgetlabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\controls\gadget\tgadgetscrollbar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\theme\theme_binder.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\theme\theme_handler.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\controls\interface\ttoastitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="t2d\world.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\0.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\1.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\2.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\3.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\4.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Awesome.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Control.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Demo.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Avatar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_AwesomelIcon.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Badge.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Button.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Carousel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_CheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Dialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_DividerLine.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_IconButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Image.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_InputField.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Label.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Loading.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_NavigationBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Pagination.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Popover.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Progress.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Radio.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Rectangle.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_SVGicon.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Switch.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Tag.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Ex_Toast.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Footerbar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Home.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Menubar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Page1Form.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TAvatar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TAvatar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TAvatar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TAvatar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TAwesomeIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TAwesomeIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TAwesomeIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TAwesomeIcon.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TBadge.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TBadge.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TBadge.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TBadge.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TBusyIndicator.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TBusyIndicator.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TBusyIndicator.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TBusyIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TCarousel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TCarousel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TCarousel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TCarousel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TCarouselElement.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TCheckBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TCheckBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TCheckBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TCheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TDialog.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TDialog.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TDialog.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TDialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TDialogBasic.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TDialogButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TDividerLine.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TDividerLine.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TDividerLine.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TDividerLine.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TFlickable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TFpsMonitor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TIcon.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TIconButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TIconButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TIconButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TIconButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TImage.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TImage.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TImage.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TImage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TImageButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TImageButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TImageButton.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TImageButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TInputField.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TInputField.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TInputField.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TInputField.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TLabel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TLabel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TLabel.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TLabel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TMask.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TMouseArea.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TNavigationBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TNavigationBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TNavigationBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TNavigationBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TNavigationElement.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TObject.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TPagination.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TPagination.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TPagination.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TPagination.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TPopover.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TPopover.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TPopover.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TPopover.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TPopoverElement.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TPopoverMenu.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TPopoverMenu.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TPopoverMenu.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TPopoverMenu.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TPopup.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TProgressBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TProgressBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TProgressBar.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TProgressBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TRadioBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TRadioBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TRadioBox.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TRadioBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TRadioBoxGroup.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TRectangle.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TRectangle.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TRectangle.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TRectangle.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TSVGIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TSVGIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TSVGIcon.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TSVGIcon.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TScrollbarH.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TScrollbarV.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TSwitch.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TSwitch.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TSwitch.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TSwitch.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TTag.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TTag.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TTag.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TTag.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\TToast.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\TToast.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\TToast.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\controls\TToast.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Topbar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\resource\svg\close-px.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\resource\svg\close.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\resource\svg\error.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\resource\font\fontawesome-webfont.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\github_a.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\github_b.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\i0.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\i1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\resource\svg\info.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Dark\main.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Quiet\main.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="themes\Solarized\main.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\resource\font\mask.cso">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\octocat-gravatar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\progressbar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\progressbg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="res\s0.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\s1.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\s2.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\s3.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\s4.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\s5.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\resource\svg\success.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\resource\font\svg.cso">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg0.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg1.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg10.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg11.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg2.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg3.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg4.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg5.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg6.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg7.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg8.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svg9.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="t2d\t2d_res.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="qml\util.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t2d\resource\svg\warning.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
